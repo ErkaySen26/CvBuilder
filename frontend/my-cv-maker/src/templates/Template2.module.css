@@ -1,0 +1,114 @@
+.templateContainer {
+  width: 210mm;
+  min-height: 297mm;
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+/* ---------- Sol Kolon (Profil) ---------- */
+.leftColumn {
+  width: 35%;
+  padding: 30px 20px;
+  background-color: #f4f4fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.profilePhoto {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 16px;
+  border: 3px solid #4f46e5;
+}
+
+.leftColumn h2 {
+  font-size: 20px;
+  margin: 0;
+  color: #222;
+}
+
+.contact {
+  font-size: 12px;
+  color: #555;
+  margin: 4px 0;
+}
+
+.summary {
+  margin-top: 20px;
+  text-align: left;
+  width: 100%;
+}
+
+.summary h4 {
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #333;
+}
+
+.summary p {
+  font-size: 12px;
+  color: #444;
+  line-height: 1.5;
+}
+
+/* ---------- Sağ Kolon (İçerik) ---------- */
+.rightColumn {
+  width: 65%;
+  padding: 30px 30px;
+  box-sizing: border-box;
+}
+
+section {
+  margin-bottom: 32px;
+}
+
+section h3 {
+  font-size: 16px;
+  color: #4f46e5;
+  margin-bottom: 16px;
+  border-left: 4px solid #4f46e5;
+  padding-left: 8px;
+}
+
+.item {
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px dashed #ddd;
+}
+
+.itemTitle {
+  font-weight: 600;
+  font-size: 14px;
+  color: #111;
+}
+
+.itemSubtitle {
+  font-size: 12px;
+  color: #666;
+  margin: 2px 0;
+}
+
+.itemDesc {
+  font-size: 13px;
+  color: #444;
+  margin-top: 4px;
+}
+
+ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 6px;
+  font-size: 13px;
+  color: #333;
+}

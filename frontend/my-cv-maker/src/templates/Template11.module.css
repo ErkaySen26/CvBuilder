@@ -1,0 +1,62 @@
+.page {
+    width: 210mm;
+    min-height: 297mm;
+    padding: 30mm 25mm;
+    background: #ffffff;
+    font-family: 'Georgia', serif;
+    color: #111;
+    box-sizing: border-box;
+  }
+  .h2{
+    color: #444;
+  }
+  .name {
+    font-size: 28px;
+    margin-bottom: 4px;
+  }
+  
+  .contact {
+    font-size: 13px;
+    color: #666;
+  }
+  
+  .summary {
+    font-size: 14px;
+    margin: 12px 0 24px;
+    color: #444;
+    line-height: 1.5;
+  }
+  
+  section {
+    margin-top: 28px;
+  }
+  
+  section h2 {
+    font-size: 18px;
+    border-left: 4px solid #222;
+    padding-left: 8px;
+    margin-bottom: 12px;
+  }
+  
+  .block {
+    margin-bottom: 16px;
+  }
+  
+  .block strong {
+    font-weight: 600;
+    font-size: 14px;
+    color: #222;
+  }
+  
+  .block span {
+    display: block;
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 4px;
+  }
+  
+  .block p {
+    font-size: 13px;
+    color: #444;
+  }
+  
